@@ -1,0 +1,6 @@
+Cargo.lock
+OVMF_VARS.fd
+esp
+startup.nsh
+target
+unifont-*.hex

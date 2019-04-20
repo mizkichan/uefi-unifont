@@ -1,0 +1,15 @@
+[package]
+name = "uefi-unifont"
+version = "0.1.0"
+authors = ["Mizuki HAGIMOTO <hagimotomizuki@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+uefi = { git = "https://github.com/rust-osdev/uefi-rs.git" }
+
+# for src/bin/example.rs
+uefi-exts = { git = "https://github.com/rust-osdev/uefi-rs.git" }
+uefi-services = { git = "https://github.com/rust-osdev/uefi-rs.git" }
+
+[build-dependencies]
+uefi = { git = "https://github.com/rust-osdev/uefi-rs.git" }
